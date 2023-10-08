@@ -3,7 +3,11 @@ import React from 'react'
 
 const Name = () => {
   return (
-    <div>Name</div>
+    <div>
+      <div className=' md:text-3xl font-extrabold text-sm'>
+        Research And Development
+      </div>
+    </div>
   )
 }
 

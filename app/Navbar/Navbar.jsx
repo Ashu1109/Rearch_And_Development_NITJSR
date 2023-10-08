@@ -6,16 +6,18 @@ import Name from './Name'
 import Menu from './Menu'
 const Navbar = () => {
   return (
-    <div className='fixed w-full bg-white shadow-sm'>
-    <div className='py-4 border-b-[4]'>
-      <Container>
-        <div className='flex flex-row items-center justify-between gap-3 md:gap-0'>
-          <Logo />
-          
-        </div>
-      </Container>
+    <div className='w-full shadow-sm bg-white'>
+      <div className=' py-3 border-b-[4]' >
+        <Container>
+          <div className='flex flex-row justify-between items-center gap-3 md:gap-0'>
+            <Logo />
+            <Name/>
+            <Menu/> 
+          </div>
+        </Container>
+      </div>
+
     </div>
-  </div>
   )
 }
 

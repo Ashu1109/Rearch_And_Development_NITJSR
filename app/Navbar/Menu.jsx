@@ -1,9 +1,13 @@
 'use client'
 import React from 'react'
-
+import { AiOutlineMenu } from 'react-icons/ai'
 const Menu = () => {
   return (
-    <div>Menu</div>
+    <div>
+      <div className='py-4'>
+        <AiOutlineMenu size={30} />
+      </div>
+    </div>
   )
 }
 
