@@ -6,8 +6,7 @@ import Name from './Name'
 import Menu from './Menu'
 const Navbar = () => {
   return (
-    <div className='w-full shadow-sm bg-white'>
-      <div className=' py-3 border-b-[4]' >
+    <div className='w-full sticky top-0 z-10 shadow-sm bg-white'>
         <Container>
           <div className='flex flex-row justify-between items-center gap-3 md:gap-0'>
             <Logo />
@@ -15,8 +14,6 @@ const Navbar = () => {
             <Menu/> 
           </div>
         </Container>
-      </div>
-
     </div>
   )
 }

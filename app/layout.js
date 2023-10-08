@@ -1,6 +1,9 @@
+import CarouselComponents from '@/app/Carousel/Carousel'
 import Navbar from './Navbar/Navbar'
 import './globals.css'
 import { Nunito } from 'next/font/google'
+import Home from './Home/Home'
+import ProfessorDetail from './ProfessorDetail/ProfessorDetail'
 
 const inter = Nunito({ subsets: ['latin'] })
 
@@ -15,7 +18,9 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         {children}
         <Navbar />
-
+        <Home />
+        <ProfessorDetail />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
         </body>
     </html>
   )
