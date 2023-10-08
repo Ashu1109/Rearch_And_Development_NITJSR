@@ -59,7 +59,7 @@ const ProfessorDetail = () => {
         <div className=' h-full w-full bg-slate-100 justify-center flex'>
             <Container>
                 <div className='pt-8 pb-4'>
-                    <div className=' text-2xl md:text-3xl font-bold text-center'>Rearch And Development</div>
+                    <div className=' text-2xl md:text-3xl font-bold text-center'>Research And Development</div>
                     <div className='text-xl  md:text-2xl font-bold text-center'>Professors</div>
                 </div>
                 <div className=' px-6 pb-10 justify-center  items-center grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4 mt-4 md:grid-cols-3 md:gap-4'>
